@@ -1,5 +1,23 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+}
+
 * {
-    font-family: 'Titillium Web', serif;
-    color: white;
-    background-color: black;
+  box-sizing: border-box;
+  font-family: 'Titillium Web', serif;
+  color: white;
+  background-color: black;
+}
+
+app-root {
+  height: 100%;
+  width: 100%;
+  padding: 10px;
 }
