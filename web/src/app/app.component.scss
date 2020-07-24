@@ -3,3 +3,21 @@ app-news {
     bottom: 15px;
     width: 100%;
 }
+
+app-clock {
+    position: absolute;
+    width: 400px;
+    text-align: left;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-start;
+    top: 15px;
+    left: 15px;
+}
+
+app-weather {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+}
