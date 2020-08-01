@@ -1,22 +1,15 @@
-html,
-body {
-  margin: 0;
-  padding: 0;
-}
-
-body {
-  height: 100vh;
-  width: 100vw;
-}
-
-* {
+html {
   box-sizing: border-box;
   font-family: 'Barlow';
   color: white;
   background-color: black;
 }
 
-app-root {
-  height: 100%;
-  width: 100%;
+p {
+  margin: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
 }

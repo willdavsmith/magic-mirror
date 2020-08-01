@@ -1,14 +1,14 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { environment } from 'src/environments/env';
-import { Article } from '../types/Article';
-import { Observable, from, of } from 'rxjs';
+import { Article } from 'src/app/types/types';
+import { Observable } from 'rxjs';
 import { map } from 'rxjs/operators';
 
 @Injectable({
   providedIn: 'root'
 })
-export class NewsService {
+export default class NewsService {
 
   constructor(private http: HttpClient) { }
 

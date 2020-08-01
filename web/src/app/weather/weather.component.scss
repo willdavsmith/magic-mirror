@@ -1,0 +1,27 @@
+#weather {
+    position: absolute;
+    right: 10px;
+    width: 250px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    text-align: right;
+    justify-content: flex-end;
+}
+
+#weatherHeader {
+    font-size: 2em;
+    order: 1;
+}
+
+#weatherImg {
+    filter: invert(100%);
+    width: 100px;
+    height: 100px;
+    order: 2;
+}
+
+#currTemp {
+    font-size: 5em;
+    order: 3;
+}

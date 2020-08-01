@@ -1,6 +1,6 @@
 import { Component, OnInit, OnDestroy } from '@angular/core';
-import { NewsService } from './news.service';
-import { Article } from 'src/app/types/Article';
+import NewsService from './news.service';
+import { Article } from 'src/app/types/types';
 
 @Component({
   selector: 'app-news',
@@ -9,7 +9,7 @@ import { Article } from 'src/app/types/Article';
 })
 export class NewsComponent implements OnInit, OnDestroy {
 
-  public articles: Article[];
+  private articles: Article[];
   private headlineTimer;
   private articlesTimer;
   public newsTitle = '';
@@ -42,6 +42,7 @@ export class NewsComponent implements OnInit, OnDestroy {
       console.log(err);
     });
   }
+
   setHeadline(): void {
     if (this.current >= this.articles.length) {
       this.current = 0;
