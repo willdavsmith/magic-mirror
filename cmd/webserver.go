@@ -12,7 +12,7 @@ import (
 )
 
 const (
-	port = 8080
+	port = 8090
 )
 
 // spaHandler implements the http.Handler interface, so we can use it
