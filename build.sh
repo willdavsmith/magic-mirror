@@ -8,6 +8,7 @@ cd ..
 rm -r -f ./release
 mkdir -p ./release/web
 cp -r ./web/dist ./release/web/
+rm -r -f ./web/dist
 echo successfully built and copied Angular app to ./release/web/
 GOOS=linux
 GOARCH=arm
