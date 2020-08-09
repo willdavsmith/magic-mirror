@@ -1,10 +1,13 @@
 app-news {
+    transform: rotate(-90deg);
     position: absolute;
-    bottom: 15px;
-    width: 100%;
+    width: 80vh;
+    bottom: 50%;
+    right: calc(-40vh + 100px);
 }
 
 app-clock {
+    transform: rotate(-90deg);
     position: absolute;
     width: 400px;
     text-align: left;
@@ -12,12 +15,11 @@ app-clock {
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: flex-start;
-    top: 15px;
-    left: 15px;
+    bottom: calc(200px - 60px);
+    left: calc(-200px + 60px);
 }
 
 app-weather {
+    transform: rotate(-90deg);
     position: absolute;
-    top: 15px;
-    right: 15px;
 }

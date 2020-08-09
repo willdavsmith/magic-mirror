@@ -22,7 +22,7 @@ export class NewsComponent implements OnInit, OnDestroy {
     this.createHeadline();
     this.articlesTimer = setInterval(() => {
       this.createHeadline();
-    }, 60 * 1000);
+    }, 60 * 60 * 1000);
   }
 
   ngOnDestroy(): void {
@@ -37,7 +37,7 @@ export class NewsComponent implements OnInit, OnDestroy {
       this.setHeadline();
       this.headlineTimer = setInterval(() => {
         this.setHeadline();
-      }, 10 * 1000);
+      }, 60 * 5 * 1000);
     }).catch((err: Error) => {
       console.log(err);
     });

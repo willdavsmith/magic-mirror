@@ -40,7 +40,6 @@ export class WeatherComponent implements OnInit {
         icon = "day-" + icon;
       }
       this.iconPath = `assets/svg/wi-${icon}.svg`;
-      console.log(this.iconPath);
     });
   }
 
