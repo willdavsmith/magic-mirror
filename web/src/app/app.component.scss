@@ -2,8 +2,9 @@ app-news {
     transform: rotate(-90deg);
     position: absolute;
     width: 80vh;
-    bottom: 50%;
-    right: calc(-40vh + 100px);
+    height: 200px;
+    bottom: calc(50% - 100px);
+    right: calc(0% - 150px);
 }
 
 app-clock {
